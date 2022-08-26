@@ -13,9 +13,9 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '0.8.0'
-group = 'com.Apothic0n.EcosphericalExpansion' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'ecosphericalexpansion'
+version = '0.1.0'
+group = 'com.Apothic0n.ecosphericaldepths' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'ecosphericaldepths'
 
 // Mojang ships Java 17 to end users in 1.18+, so your mod should target Java 17.
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
@@ -59,7 +59,7 @@ minecraft {
             property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
 
             mods {
-                ecosphericalexpansion {
+                ecosphericaldepths {
                     source sourceSets.main
                 }
             }
@@ -81,7 +81,7 @@ minecraft {
             //property 'forge.logging.console.level', 'debug'
 
             mods {
-                ecosphericalexpansion {
+                ecosphericaldepths {
                     source sourceSets.main
                 }
             }
@@ -106,7 +106,7 @@ minecraft {
             args '--mod', 'archivesBaseName', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                ecosphericalexpansion {
+                ecosphericaldepths {
                     source sourceSets.main
                 }
             }
@@ -157,8 +157,6 @@ dependencies {
 
     // Examples using mod jars from ./libs
     // implementation fg.deobf("blank:coolmod-${mc_version}:${coolmod_version}")
-    // terrablender
-    implementation fg.deobf("curse.maven:terrablender-563928:3704222")
 
     // For more info...
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
@@ -169,7 +167,7 @@ dependencies {
 jar {
     manifest {
         attributes([
-                "Specification-Title"     : "Ecospherical Expansion",
+                "Specification-Title"     : "Ecospherical Depths",
                 "Specification-Vendor"    : "Apothic0n",
                 "Specification-Version"   : "1",
                 "Implementation-Title"    : project.name,

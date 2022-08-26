@@ -1,0 +1,133 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": -1354386326,
+    "settings": "minecraft:overworld",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "ecod:molten_cavity",
+          "parameters": {
+            "temperature": [
+              0.1,
+              1
+            ],
+            "humidity": [
+              -1,
+              0.1
+            ],
+            "continentalness": [
+              0.1,
+              0.4
+            ],
+            "erosion": [
+              0.2,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.1,
+              0.4
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "ecod:dripping_cavity",
+          "parameters": {
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -0.2,
+              1
+            ],
+            "continentalness": [
+              0.2,
+              1
+            ],
+            "erosion": [
+              0.2,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.1,
+              0.6
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "ecod:geodeial_cavity",
+          "parameters": {
+            "temperature": [
+              -0.8,
+              0.2
+            ],
+            "humidity": [
+              -0.7,
+              1
+            ],
+            "continentalness": [
+              0.2,
+              1
+            ],
+            "erosion": [
+              0.3,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.0,
+              0.7
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "ecod:lush_cavity",
+          "parameters": {
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              0.7,
+              1
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.2,
+              0.9
+            ],
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

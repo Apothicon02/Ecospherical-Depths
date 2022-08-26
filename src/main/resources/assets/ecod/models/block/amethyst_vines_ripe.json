@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "ecod:block/amethyst_vines_ripe"
+  }
+}

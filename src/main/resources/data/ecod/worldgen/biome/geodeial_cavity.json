@@ -1,0 +1,169 @@
+{
+  "temperature": -0.2,
+  "downfall": 0.3,
+  "precipitation": "none",
+  "temperature_modifier": "none",
+  "category": "underground",
+  "creature_spawn_probability": 0.44,
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 0,
+    "water_color": 6307812,
+    "water_fog_color": 1115443,
+    "grass_color_modifier": "dark_forest",
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "minecraft:block.amethyst_block.chime",
+      "tick_chance": 0.02
+    },
+    "music": {
+      "sound": "minecraft:music.overworld.dripstone_caves",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:portal"
+      },
+      "probability": 0.004393334
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:witch",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:stray",
+        "weight": 34,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:illusioner",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "water_creature": [
+      {
+        "type": "minecraft:axolotl",
+        "weight": 1,
+        "minCount": 2,
+        "maxCount": 7
+      },
+      {
+        "type": "minecraft:cod",
+        "weight": 7,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:salmon",
+        "weight": 7,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:glow_squid",
+        "weight": 3,
+        "minCount": 2,
+        "maxCount": 3
+      }
+    ]
+  },
+  "spawn_costs": {
+    "minecraft:stray": {
+      "energy_budget": 2,
+      "charge": 1
+    },
+    "minecraft:witch": {
+      "energy_budget": 4,
+      "charge": 2
+    },
+    "minecraft:illusioner": {
+      "energy_budget": 3,
+      "charge": 2
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave"
+    ]
+  },
+  "features": [
+    [
+      "ecod:smooth_basalt_pillar"
+    ],
+    [
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
+    ],
+    [
+      "ecod:void_amethyst_geode",
+      "ecod:amethyst_crystal_spike",
+      "ecod:amethyst_crystal_ground_spike",
+      "ecod:smooth_basalt_blob",
+      "ecod:calcite_blob",
+      "ecod:calcite_ground_blob"
+    ],
+    [
+      "ecod:deepslate_calcite_blob",
+      "ecod:smooth_basalt_calcite_blob",
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [
+      "ecod:amethyst_spiral"
+    ],
+    [
+      "ecod:amethyst_water_fall"
+    ],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper_large",
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel",
+      "ecod:amethyst_void_crystals",
+      "ecod:amethyst_void_ceiling_crystals"
+    ],
+    [
+      "ecod:amethyst_vine",
+      "ecod:lush_spore_blossom"
+    ]
+  ]
+}

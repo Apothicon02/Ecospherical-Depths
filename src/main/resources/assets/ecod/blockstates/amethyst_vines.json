@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "berries=false": {
+      "model": "ecod:block/amethyst_vines"
+    },
+    "berries=true": {
+      "model": "ecod:block/amethyst_vines_ripe"
+    }
+  }
+}
