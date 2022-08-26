@@ -103,7 +103,7 @@
   },
   "features": [
     [
-      "ecod:smooth_basalt_pillar"
+      "ecod:sparse_smooth_basalt_pillar"
     ],
     [
       "minecraft:lake_lava_underground",
