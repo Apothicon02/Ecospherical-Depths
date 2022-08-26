@@ -1,9 +1,9 @@
 {
-  "type": "minecraft:overworld",
+  "type": "ecod:the_depths",
   "generator": {
     "type": "minecraft:noise",
     "seed": -9485786326,
-    "settings": "minecraft:overworld",
+    "settings": "ecod:the_depths",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [
