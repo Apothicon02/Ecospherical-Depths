@@ -1,5 +1,5 @@
 {
-  "sea_level": 4,
+  "sea_level": -15,
   "disable_mob_generation": false,
   "aquifers_enabled": true,
   "ore_veins_enabled": true,
@@ -247,7 +247,7 @@
                   "if_true": {
                     "type": "minecraft:biome",
                     "biome_is": [
-                      "minecraft:wooded_badlands"
+                      "ecod:dripping_cavity"
                     ]
                   },
                   "then_run": {
@@ -398,9 +398,7 @@
             "if_true": {
               "type": "minecraft:biome",
               "biome_is": [
-                "minecraft:badlands",
-                "minecraft:eroded_badlands",
-                "minecraft:wooded_badlands"
+                "ecod:dripping_cavity"
               ]
             },
             "then_run": {
@@ -522,14 +520,14 @@
                               "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                  "Name": "minecraft:red_sandstone"
+                                  "Name": "minecraft:stone"
                                 }
                               }
                             },
                             {
                               "type": "minecraft:block",
                               "result_state": {
-                                "Name": "minecraft:red_sand"
+                                "Name": "minecraft:deepslate"
                               }
                             }
                           ]

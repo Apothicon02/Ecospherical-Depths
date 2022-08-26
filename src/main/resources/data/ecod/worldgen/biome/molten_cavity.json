@@ -34,7 +34,7 @@
   "spawners": {
     "monster": [
       {
-        "type": "minecraft:ghast",
+        "type": "minecraft:blaze",
         "weight": 40,
         "minCount": 1,
         "maxCount": 1

@@ -2,7 +2,7 @@
   "type": "ecod:the_depths",
   "generator": {
     "type": "minecraft:noise",
-    "seed": -9485786326,
+    "seed": -9683568734,
     "settings": "ecod:the_depths",
     "biome_source": {
       "type": "minecraft:multi_noise",
@@ -41,11 +41,11 @@
           "biome": "ecod:dripping_cavity",
           "parameters": {
             "temperature": [
-              -1,
+              -0.4,
               1
             ],
             "humidity": [
-              -0.2,
+              0.3,
               1
             ],
             "continentalness": [
@@ -53,7 +53,7 @@
               1
             ],
             "erosion": [
-              0.2,
+              0.3,
               1
             ],
             "weirdness": [
@@ -61,7 +61,7 @@
               1
             ],
             "depth": [
-              0.1,
+              0.0,
               0.6
             ],
             "offset": 0
@@ -83,7 +83,7 @@
               1
             ],
             "erosion": [
-              0.3,
+              0.2,
               1
             ],
             "weirdness": [
@@ -92,7 +92,7 @@
             ],
             "depth": [
               0.0,
-              0.7
+              1.0
             ],
             "offset": 0
           }
@@ -101,7 +101,7 @@
           "biome": "ecod:lush_cavity",
           "parameters": {
             "temperature": [
-              -1,
+              -0.3,
               1
             ],
             "humidity": [
