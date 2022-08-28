@@ -105,9 +105,12 @@ public class CommonModEvents {
             } else if(event.getName().toString().equals("ecod:molten_cavity")) {
                 event.getSpawns().addSpawn(MobCategory.MONSTER, new MobSpawnSettings.SpawnerData(AMEntityRegistry.STRADDLER.get(), 20, 1, 1));
             }
-        } else if (ModList.get().isLoaded("wildbackport")) {
-            Holder<PlacedFeature> WILD_SCULK_PATCH = PlacementUtils.register("wild_sculk_patch", WBWorldGeneration.SCULK_PATCH_DEEP_DARK_CONFIG, CountPlacement.of(UniformInt.of(6, 20)), InSquarePlacement.spread(), PlacementUtils.RANGE_BOTTOM_TO_MAX_TERRAIN_HEIGHT, BiomeFilter.biome());
+        }
+        if (ModList.get().isLoaded("wildbackport")) {
+            Holder<PlacedFeature> WILD_SCULK_PATCH = PlacementUtils.register("wild_sculk_patch", WBWorldGeneration.SCULK_PATCH_DEEP_DARK_CONFIG, CountPlacement.of(UniformInt.of(96, 144)), InSquarePlacement.spread(), PlacementUtils.RANGE_BOTTOM_TO_MAX_TERRAIN_HEIGHT, BiomeFilter.biome());
+            Holder<PlacedFeature> WILD_ANCIENT_SCULK_PATCH = PlacementUtils.register("wild_ancient_sculk_patch", WBWorldGeneration.SCULK_PATCH_ANCIENT_CITY_CONFIG, CountPlacement.of(UniformInt.of(4, 10)), InSquarePlacement.spread(), PlacementUtils.RANGE_BOTTOM_TO_MAX_TERRAIN_HEIGHT, BiomeFilter.biome());
             if (event.getName().toString().equals("ecod:deep_cavity")) {
+                event.getGeneration().addFeature(GenerationStep.Decoration.UNDERGROUND_DECORATION, WILD_ANCIENT_SCULK_PATCH);
                 event.getGeneration().addFeature(GenerationStep.Decoration.UNDERGROUND_DECORATION, WILD_SCULK_PATCH);
             }
         }
