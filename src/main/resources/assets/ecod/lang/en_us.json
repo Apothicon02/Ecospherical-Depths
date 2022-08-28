@@ -1,3 +1,8 @@
 {
-  "biome.ecod.geodeial_cavity": "Geodeial Cavity"
+  "biome.ecod.deep_cavity": "Deep Cavity",
+  "biome.ecod.dripping_cavity": "Dripping Cavity",
+  "biome.ecod.frozen_cavity": "Frozen Cavity",
+  "biome.ecod.geodeial_cavity": "Geodeial Cavity",
+  "biome.ecod.lush_cavity": "Lush Cavity",
+  "biome.ecod.molten_cavity": "Molten Cavity"
 }
