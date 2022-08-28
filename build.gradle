@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '0.1.1'
+version = '0.2.0'
 group = 'com.Apothic0n.ecosphericaldepths' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'ecosphericaldepths'
 
@@ -149,6 +149,12 @@ dependencies {
     compileOnly fg.deobf("mezz.jei:jei-${'1.18.2'}:${'9.5.3.143'}:api")
     // at runtime, use the full JEI jar
     runtimeOnly fg.deobf("mezz.jei:jei-${'1.18.2'}:${'9.5.3.143'}")
+    // galosphere
+    implementation fg.deobf("curse.maven:galosphere-631098:3888091")
+    //alex's mobs
+    compileOnly fg.deobf("curse.maven:alexs-mobs-426558:3853078")
+    //the wild backport
+    compileOnly fg.deobf("curse.maven:the-wild-backport-537901:3954946")
 
     // Real mod deobf dependency examples - these get remapped to your current mappings
     // compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api") // Adds JEI API as a compile dependency

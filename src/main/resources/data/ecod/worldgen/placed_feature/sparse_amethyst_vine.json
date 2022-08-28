@@ -1,9 +1,15 @@
 {
-  "feature": "ecod:amethyst_void_crystals",
+  "feature": "ecod:amethyst_vine",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 69
+      "count": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 18,
+          "max_inclusive": 42
+        }
+      }
     },
     {
       "type": "minecraft:in_square"
@@ -13,7 +19,7 @@
       "height": {
         "type": "minecraft:uniform",
         "min_inclusive": {
-          "absolute": -36
+          "above_bottom": 0
         },
         "max_inclusive": {
           "absolute": 90
@@ -22,13 +28,13 @@
     },
     {
       "type": "minecraft:environment_scan",
-      "direction_of_search": "down",
-      "max_steps": 32,
+      "direction_of_search": "up",
+      "max_steps": 12,
       "target_condition": {
         "type": "minecraft:matching_blocks",
         "offset": [
           0,
-          -1,
+          1,
           0
         ],
         "blocks": [
@@ -37,10 +43,7 @@
           "minecraft:smooth_basalt",
           "minecraft:basalt",
           "minecraft:calcite",
-          "minecraft:deepslate",
-          "minecraft:ice",
-          "minecraft:packed_ice",
-          "minecraft:blue_ice"
+          "minecraft:deepslate"
         ]
       },
       "allowed_search_condition": {

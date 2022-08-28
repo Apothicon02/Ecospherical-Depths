@@ -33,7 +33,19 @@ public abstract class EcodFeatureRegistry {
     public static final RegistryObject<Feature<LargeDripstoneConfiguration>> LARGE_BASALT_PILLAR = FEATURES.register("large_basalt_pillar", () ->
             new LargeBasaltPillarFeature(LargeDripstoneConfiguration.CODEC));
 
-    public static final RegistryObject<Feature<LargeDripstoneConfiguration>> PACKED_ICE_PILLAR = FEATURES.register("packed_ice_pillar", () ->
+    public static final RegistryObject<Feature<LargeDripstoneConfiguration>> LARGE_DEEPSLATE_PILLAR = FEATURES.register("large_deepslate_pillar", () ->
+            new LargeDeepslatePillarFeature(LargeDripstoneConfiguration.CODEC));
+
+    public static final RegistryObject<Feature<LargeDripstoneConfiguration>> LARGE_OBSIDIAN_PILLAR = FEATURES.register("large_obsidian_pillar", () ->
+            new LargeObsidianPillarFeature(LargeDripstoneConfiguration.CODEC));
+
+    public static final RegistryObject<Feature<LargeDripstoneConfiguration>> LARGE_ICE_PILLAR = FEATURES.register("large_ice_pillar", () ->
+            new LargeIcePillarFeature(LargeDripstoneConfiguration.CODEC));
+
+    public static final RegistryObject<Feature<LargeDripstoneConfiguration>> LARGE_BLUE_ICE_PILLAR = FEATURES.register("large_blue_ice_pillar", () ->
+            new LargeBlueIcePillarFeature(LargeDripstoneConfiguration.CODEC));
+
+    public static final RegistryObject<Feature<LargeDripstoneConfiguration>> LARGE_PACKED_ICE_PILLAR = FEATURES.register("large_packed_ice_pillar", () ->
             new LargePackedIcePillarFeature(LargeDripstoneConfiguration.CODEC));
 
     public static final RegistryObject<Feature<LargeDripstoneConfiguration>> THIN_BLACKSTONE_PILLAR = FEATURES.register("thin_blackstone_pillar", () ->
