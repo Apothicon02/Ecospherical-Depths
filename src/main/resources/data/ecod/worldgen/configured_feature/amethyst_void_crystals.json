@@ -5,7 +5,17 @@
       "type": "minecraft:weighted_state_provider",
       "entries": [
         {
-          "weight": 5,
+          "weight": 2,
+          "data": {
+            "Name": "minecraft:amethyst_cluster",
+            "Properties": {
+              "waterlogged": "false",
+              "facing": "down"
+            }
+          }
+        },
+        {
+          "weight": 3,
           "data": {
             "Name": "minecraft:large_amethyst_bud",
             "Properties": {

@@ -110,6 +110,10 @@
       "minecraft:lake_lava_surface"
     ],
     [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [
       "ecod:void_amethyst_geode",
       "ecod:amethyst_crystal_spike",
       "ecod:amethyst_crystal_ground_spike",
@@ -118,26 +122,8 @@
       "ecod:calcite_ground_blob"
     ],
     [
-      "ecod:deepslate_calcite_blob",
-      "ecod:smooth_basalt_calcite_blob",
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"
-    ],
-    [
-      "ecod:amethyst_spiral"
-    ],
-    [
-      "ecod:amethyst_water_fall"
-    ],
-    [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
-      "minecraft:ore_granite_upper",
-      "minecraft:ore_granite_lower",
-      "minecraft:ore_diorite_upper",
-      "minecraft:ore_diorite_lower",
-      "minecraft:ore_andesite_upper",
-      "minecraft:ore_andesite_lower",
       "minecraft:ore_tuff",
       "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
@@ -157,11 +143,21 @@
       "minecraft:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel",
-      "ecod:amethyst_void_crystals",
-      "ecod:amethyst_void_ceiling_crystals"
+      "minecraft:disk_gravel"
     ],
     [
+      "ecod:deepslate_calcite_blob",
+      "ecod:smooth_basalt_calcite_blob",
+      "ecod:amethyst_spiral"
+    ],
+    [
+      "ecod:amethyst_water_fall"
+    ],
+    [],
+    [
+      "minecraft:glow_lichen",
+      "ecod:amethyst_void_crystals",
+      "ecod:amethyst_void_ceiling_crystals",
       "ecod:amethyst_vine",
       "ecod:lush_spore_blossom"
     ]

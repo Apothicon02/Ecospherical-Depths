@@ -1,9 +1,9 @@
 {
-  "feature": "ecod:amethyst_void_crystals",
+  "feature": "ecod:patch_snow_layer",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 69
+      "count": 50
     },
     {
       "type": "minecraft:in_square"
@@ -23,31 +23,13 @@
     {
       "type": "minecraft:environment_scan",
       "direction_of_search": "down",
-      "max_steps": 32,
+      "max_steps": 12,
       "target_condition": {
-        "type": "minecraft:matching_blocks",
-        "offset": [
-          0,
-          -1,
-          0
-        ],
-        "blocks": [
-          "minecraft:amethyst_block",
-          "minecraft:budding_amethyst",
-          "minecraft:smooth_basalt",
-          "minecraft:basalt",
-          "minecraft:calcite",
-          "minecraft:deepslate",
-          "minecraft:ice",
-          "minecraft:packed_ice",
-          "minecraft:blue_ice"
-        ]
+        "type": "minecraft:solid"
       },
       "allowed_search_condition": {
         "type": "minecraft:matching_blocks",
-        "blocks": [
-          "minecraft:air"
-        ]
+        "blocks": "minecraft:air"
       }
     },
     {

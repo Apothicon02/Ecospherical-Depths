@@ -1,0 +1,28 @@
+{
+  "type": "ecod:catching_fall",
+  "config": {
+    "state": {
+      "Name": "minecraft:water"
+    },
+    "rock_count": 2,
+    "hole_count": 1,
+    "requires_block_below": false,
+    "valid_blocks": [
+      "minecraft:smooth_basalt",
+      "minecraft:deepslate",
+      "minecraft:calcite",
+      "minecraft:stone",
+      "minecraft:clay"
+    ],
+    "invalid_blocks": [
+      "minecraft:dripstone_block",
+      "minecraft:amethyst_block"
+    ],
+    "basinMaterial": {
+      "Name": "minecraft:obsidian"
+    },
+    "basinMaterial2": {
+      "Name": "minecraft:crying_obsidian"
+    }
+  }
+}

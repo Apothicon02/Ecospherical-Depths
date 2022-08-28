@@ -68,6 +68,36 @@
           }
         },
         {
+          "biome": "ecod:deep_cavity",
+          "parameters": {
+            "temperature": [
+              -0.4,
+              1
+            ],
+            "humidity": [
+              -1.0,
+              0.1
+            ],
+            "continentalness": [
+              0.2,
+              1
+            ],
+            "erosion": [
+              0.0,
+              0.6
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.0,
+              1.0
+            ],
+            "offset": 0
+          }
+        },
+        {
           "biome": "ecod:geodeial_cavity",
           "parameters": {
             "temperature": [
@@ -84,6 +114,36 @@
             ],
             "erosion": [
               0.2,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.0,
+              1.0
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "ecod:frozen_cavity",
+          "parameters": {
+            "temperature": [
+              -1.0,
+              -0.2
+            ],
+            "humidity": [
+              -1.0,
+              1
+            ],
+            "continentalness": [
+              0.7,
+              1
+            ],
+            "erosion": [
+              -1,
               1
             ],
             "weirdness": [

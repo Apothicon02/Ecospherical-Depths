@@ -26,7 +26,13 @@
     "monster": [
       {
         "type": "minecraft:spider",
-        "weight": 100,
+        "weight": 190,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:cave_spider",
+        "weight": 90,
         "minCount": 4,
         "maxCount": 4
       },
@@ -44,13 +50,13 @@
       },
       {
         "type": "minecraft:skeleton",
-        "weight": 100,
+        "weight": 10,
         "minCount": 4,
         "maxCount": 4
       },
       {
         "type": "minecraft:creeper",
-        "weight": 100,
+        "weight": 10,
         "minCount": 4,
         "maxCount": 4
       },
@@ -133,7 +139,6 @@
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
-    [],
     [
       "ecod:clay_water_fall"
     ],
@@ -152,7 +157,7 @@
       "minecraft:ore_iron_upper",
       "minecraft:ore_iron_middle",
       "minecraft:ore_iron_small",
-      "minecraft:ore_gold",
+      "ecod:ore_gold_extra",
       "minecraft:ore_gold_lower",
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
@@ -166,9 +171,9 @@
       "minecraft:ore_clay",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:disk_gravel",
+      "ecod:ore_emerald_extra"
     ],
-    [],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
@@ -187,9 +192,6 @@
       "minecraft:lush_caves_vegetation",
       "ecod:lush_spore_blossom",
       "minecraft:classic_vines_cave_feature"
-    ],
-    [
-      "minecraft:freeze_top_layer"
     ]
   ]
 }

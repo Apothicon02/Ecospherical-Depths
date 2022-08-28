@@ -1,6 +1,6 @@
 {
-  "temperature": 0.8,
-  "downfall": 0.4,
+  "temperature": -0.8,
+  "downfall": 0.7,
   "precipitation": "rain",
   "category": "underground",
   "effects": {
@@ -27,31 +27,31 @@
         "type": "minecraft:spider",
         "weight": 5,
         "minCount": 4,
-        "maxCount": 4
+        "maxCount": 7
       },
       {
         "type": "minecraft:zombie",
-        "weight": 190,
-        "minCount": 4,
+        "weight": 5,
+        "minCount": 1,
         "maxCount": 4
       },
       {
         "type": "minecraft:zombie_villager",
-        "weight": 195,
+        "weight": 5,
         "minCount": 1,
-        "maxCount": 1
+        "maxCount": 3
       },
       {
-        "type": "minecraft:skeleton",
-        "weight": 5,
-        "minCount": 4,
+        "type": "minecraft:stray",
+        "weight": 120,
+        "minCount": 1,
         "maxCount": 4
       },
       {
         "type": "minecraft:creeper",
-        "weight": 5,
-        "minCount": 4,
-        "maxCount": 4
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 3
       },
       {
         "type": "minecraft:slime",
@@ -61,21 +61,15 @@
       },
       {
         "type": "minecraft:enderman",
-        "weight": 10,
-        "minCount": 1,
-        "maxCount": 4
+        "weight": 185,
+        "minCount": 2,
+        "maxCount": 3
       },
       {
         "type": "minecraft:witch",
-        "weight": 5,
+        "weight": 85,
         "minCount": 1,
         "maxCount": 1
-      },
-      {
-        "type": "minecraft:drowned",
-        "weight": 95,
-        "minCount": 4,
-        "maxCount": 4
       }
     ],
     "creature": [],
@@ -110,29 +104,18 @@
   },
   "features": [
     [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
+      "ecod:sparse_packed_ice_pillar",
+      "ecod:thin_ice_pillar",
+      "ecod:sparse_thin_blue_ice_pillar"
     ],
     [
-      "minecraft:amethyst_geode",
-      "minecraft:large_dripstone"
+      "minecraft:amethyst_geode"
     ],
     [
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
     [
-      "ecod:clay_water_fall"
-    ],
-    [
-      "minecraft:ore_dirt",
-      "minecraft:ore_gravel",
-      "minecraft:ore_granite_upper",
-      "minecraft:ore_granite_lower",
-      "minecraft:ore_diorite_upper",
-      "minecraft:ore_diorite_lower",
-      "minecraft:ore_andesite_upper",
-      "minecraft:ore_andesite_lower",
       "minecraft:ore_tuff",
       "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
@@ -144,26 +127,18 @@
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
-      "minecraft:ore_diamond_large",
+      "ecod:ore_diamond_extra",
       "minecraft:ore_diamond_buried",
-      "minecraft:ore_lapis",
+      "ecod:ore_lapis_extra",
       "minecraft:ore_lapis_buried",
-      "minecraft:ore_copper_large",
-      "minecraft:underwater_magma",
-      "minecraft:disk_sand",
-      "minecraft:disk_clay",
-      "minecraft:disk_gravel"
-    ],
-    [
-      "minecraft:dripstone_cluster",
-      "minecraft:pointed_dripstone"
-    ],
-    [
-      "minecraft:spring_water",
-      "minecraft:spring_lava"
+      "minecraft:ore_copper_large"
     ],
     [
       "minecraft:glow_lichen",
+      "ecod:amethyst_spiral",
+      "ecod:amethyst_void_crystals",
+      "ecod:sparse_amethyst_void_ceiling_crystals",
+      "ecod:sparse_amethyst_vine",
       "minecraft:patch_tall_grass_2",
       "minecraft:trees_plains",
       "minecraft:flower_plains",
@@ -172,9 +147,11 @@
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
-      "ecod:clay_pool_with_dripleaves"
+      "ecod:snowy_pool_with_ice",
+      "ecod:powdered_snow_pool"
     ],
     [
+      "ecod:patch_snow_layer",
       "minecraft:freeze_top_layer"
     ]
   ]

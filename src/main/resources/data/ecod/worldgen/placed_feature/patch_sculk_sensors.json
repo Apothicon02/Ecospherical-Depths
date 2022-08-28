@@ -1,0 +1,39 @@
+{
+  "feature": "ecod:patch_sculk_sensors",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 1
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": -36
+        },
+        "max_inclusive": {
+          "absolute": 90
+        }
+      }
+    },
+    {
+      "type": "minecraft:environment_scan",
+      "direction_of_search": "down",
+      "max_steps": 12,
+      "target_condition": {
+        "type": "minecraft:solid"
+      },
+      "allowed_search_condition": {
+        "type": "minecraft:matching_blocks",
+        "blocks": "minecraft:air"
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
