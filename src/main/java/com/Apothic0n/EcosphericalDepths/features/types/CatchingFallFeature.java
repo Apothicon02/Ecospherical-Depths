@@ -4,9 +4,11 @@ import com.Apothic0n.EcosphericalDepths.features.configuartions.CatchingFallConf
 import com.mojang.serialization.Codec;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.WorldGenLevel;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.FeaturePlaceContext;
+import net.minecraft.world.level.levelgen.feature.configurations.SpringConfiguration;
 
 public class CatchingFallFeature extends Feature<CatchingFallConfiguration> {
     public CatchingFallFeature(Codec<CatchingFallConfiguration> pContext) {
@@ -23,7 +25,7 @@ public class CatchingFallFeature extends Feature<CatchingFallConfiguration> {
             return false;
         } else {
             BlockState blockstate = worldgenlevel.getBlockState(blockpos);
-            if (!blockstate.isAir() && !springconfiguration.validBlocks.contains(blockstate.getBlock())) {
+            if (!blockstate.isAir() && !blockstate.is(springconfiguration.state.createLegacyBlock().getBlock()) && !springconfiguration.validBlocks.contains(blockstate.getBlock())) {
                 return false;
             } else {
                 int i = 0;

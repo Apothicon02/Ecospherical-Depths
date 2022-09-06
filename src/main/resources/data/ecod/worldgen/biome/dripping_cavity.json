@@ -30,7 +30,7 @@
         "maxCount": 4
       },
       {
-        "type": "minecraft:zombie",
+        "type": "minecraft:drowned",
         "weight": 190,
         "minCount": 4,
         "maxCount": 4
@@ -72,7 +72,7 @@
         "maxCount": 1
       },
       {
-        "type": "minecraft:drowned",
+        "type": "minecraft:zombie",
         "weight": 95,
         "minCount": 4,
         "maxCount": 4

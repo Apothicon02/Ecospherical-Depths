@@ -2,7 +2,7 @@
   "type": "minecraft:overworld",
   "generator": {
     "type": "minecraft:noise",
-    "seed": -9683568734,
+    "seed": 0,
     "settings": "minecraft:overworld",
     "biome_source": {
       "type": "minecraft:multi_noise",
@@ -11,28 +11,25 @@
           "biome": "ecod:molten_cavity",
           "parameters": {
             "temperature": [
-              0.1,
-              1
+              1.4,
+              2.0
             ],
             "humidity": [
-              -1,
-              0.1
+              -2.0,
+              1.7
             ],
             "continentalness": [
-              0.1,
-              0.4
+              0.7,
+              2.0
             ],
             "erosion": [
               0.2,
-              1
-            ],
-            "weirdness": [
-              -1,
-              1
-            ],
-            "depth": [
-              0.1,
               0.4
+            ],
+            "weirdness": 0,
+            "depth": [
+              0.4,
+              2.0
             ],
             "offset": 0
           }
@@ -42,27 +39,78 @@
           "parameters": {
             "temperature": [
               -0.4,
-              1
+              1.3
             ],
             "humidity": [
-              0.3,
-              1
+              0.5,
+              2.0
             ],
             "continentalness": [
               0.2,
               1
             ],
             "erosion": [
-              0.3,
-              1
+              -2.0,
+              0.4
             ],
-            "weirdness": [
-              -1,
-              1
-            ],
+            "weirdness": 0,
             "depth": [
+              0,
+              1.6
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "ecod:tropical_cavity",
+          "parameters": {
+            "temperature": [
+              0.8,
+              2.0
+            ],
+            "humidity": [
+              0.6,
+              2.0
+            ],
+            "continentalness": [
+              -0.3,
+              1.6
+            ],
+            "erosion": [
               0.0,
-              0.6
+              2.0
+            ],
+            "weirdness": 0,
+            "depth": [
+              0.4,
+              2.0
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "ecod:submerged_cavity",
+          "parameters": {
+            "temperature": [
+              0.3,
+              1.6
+            ],
+            "humidity": [
+              0.7,
+              1.8
+            ],
+            "continentalness": [
+              -2.0,
+              -0.3
+            ],
+            "erosion": [
+              -2.0,
+              0.5
+            ],
+            "weirdness": 0.3,
+            "depth": [
+              0.7,
+              0.8
             ],
             "offset": 0
           }
@@ -71,28 +119,25 @@
           "biome": "ecod:deep_cavity",
           "parameters": {
             "temperature": [
-              -0.4,
-              1
+              -1.0,
+              1.0
             ],
             "humidity": [
-              -1.0,
-              0.1
+              -1.5,
+              0.2
             ],
             "continentalness": [
-              0.2,
-              1
+              -0.8,
+              0.3
             ],
             "erosion": [
-              0.0,
-              0.6
+              -1.5,
+              1.2
             ],
-            "weirdness": [
-              -1,
-              1
-            ],
+            "weirdness": 1.2,
             "depth": [
               0.0,
-              1.0
+              2.0
             ],
             "offset": 0
           }
@@ -101,28 +146,25 @@
           "biome": "ecod:geodeial_cavity",
           "parameters": {
             "temperature": [
-              -0.8,
-              0.2
+              -1.2,
+              1.0
             ],
             "humidity": [
-              -0.7,
-              1
+              -1.2,
+              1.0
             ],
             "continentalness": [
               0.2,
-              1
+              1.0
             ],
             "erosion": [
-              0.2,
-              1
+              -0.6,
+              1.4
             ],
-            "weirdness": [
-              -1,
-              1
-            ],
+            "weirdness": 1.1,
             "depth": [
-              0.0,
-              1.0
+              0,
+              2.0
             ],
             "offset": 0
           }
@@ -131,28 +173,25 @@
           "biome": "ecod:frozen_cavity",
           "parameters": {
             "temperature": [
-              -1.0,
-              -0.2
+              -2.0,
+              -0.8
             ],
             "humidity": [
-              -1.0,
-              1
+              -0.8,
+              1.2
             ],
             "continentalness": [
-              0.7,
-              1
+              -0.3,
+              2.0
             ],
             "erosion": [
-              -1,
-              1
+              -1.1,
+              2.0
             ],
-            "weirdness": [
-              -1,
-              1
-            ],
+            "weirdness": 0.3,
             "depth": [
-              0.0,
-              1.0
+              0,
+              0.6
             ],
             "offset": 0
           }
@@ -162,32 +201,30 @@
           "parameters": {
             "temperature": [
               -0.3,
-              1
+              1.2
             ],
             "humidity": [
               0.7,
-              1
+              2.0
             ],
             "continentalness": [
-              -1,
-              1
+              -0.2,
+              1.7
             ],
             "erosion": [
-              -1,
-              1
+              0,
+              2.0
             ],
-            "weirdness": [
-              -1,
-              1
-            ],
+            "weirdness": 0.3,
             "depth": [
-              0.2,
-              0.9
+              0,
+              0.6
             ],
             "offset": 0
           }
         }
       ]
     }
-  }
+  },
+  "forge:use_server_seed": true
 }

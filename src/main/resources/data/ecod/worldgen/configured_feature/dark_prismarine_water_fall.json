@@ -1,0 +1,33 @@
+{
+  "type": "ecod:catching_fall",
+  "config": {
+    "state": {
+      "Name": "minecraft:water"
+    },
+    "rock_count": 2,
+    "hole_count": 1,
+    "requires_block_below": false,
+    "valid_blocks": [
+      "minecraft:smooth_basalt",
+      "minecraft:deepslate",
+      "minecraft:calcite",
+      "minecraft:stone",
+      "minecraft:clay",
+      "minecraft:prismarine",
+      "minecraft:sand",
+      "minecraft:gravel",
+      "minecraft:dirt"
+    ],
+    "invalid_blocks": [
+      "minecraft:dripstone_block",
+      "minecraft:amethyst_block",
+      "minecraft:dark_prismarine"
+    ],
+    "basinMaterial": {
+      "Name": "minecraft:dark_prismarine"
+    },
+    "basinMaterial2": {
+      "Name": "minecraft:dark_prismarine"
+    }
+  }
+}

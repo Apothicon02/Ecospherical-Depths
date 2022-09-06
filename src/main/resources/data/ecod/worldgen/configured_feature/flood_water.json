@@ -1,0 +1,15 @@
+{
+  "type": "ecod:flood",
+  "config": {
+    "material": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:water",
+        "Properties": {
+          "level": "0"
+        }
+      }
+    },
+    "elevation": 0
+  }
+}

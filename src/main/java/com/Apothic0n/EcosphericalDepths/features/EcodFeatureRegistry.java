@@ -1,14 +1,10 @@
 package com.Apothic0n.EcosphericalDepths.features;
 
 import com.Apothic0n.EcosphericalDepths.EcosphericalDepths;
-import com.Apothic0n.EcosphericalDepths.features.configuartions.CatchingFallConfiguration;
-import com.Apothic0n.EcosphericalDepths.features.configuartions.FloatingBlobConfiguration;
-import com.Apothic0n.EcosphericalDepths.features.configuartions.SpiralConfiguration;
-import com.Apothic0n.EcosphericalDepths.features.configuartions.VerticalBlobConfiguration;
+import com.Apothic0n.EcosphericalDepths.features.configuartions.*;
 import com.Apothic0n.EcosphericalDepths.features.types.*;
 import net.minecraft.world.level.levelgen.feature.Feature;
-import net.minecraft.world.level.levelgen.feature.configurations.GeodeConfiguration;
-import net.minecraft.world.level.levelgen.feature.configurations.LargeDripstoneConfiguration;
+import net.minecraft.world.level.levelgen.feature.configurations.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -42,6 +38,24 @@ public abstract class EcodFeatureRegistry {
     public static final RegistryObject<Feature<LargeDripstoneConfiguration>> LARGE_ICE_PILLAR = FEATURES.register("large_ice_pillar", () ->
             new LargeIcePillarFeature(LargeDripstoneConfiguration.CODEC));
 
+    public static final RegistryObject<Feature<LargeDripstoneConfiguration>> LARGE_HONEY_PILLAR = FEATURES.register("large_honey_pillar", () ->
+            new LargeHoneyPillarFeature(LargeDripstoneConfiguration.CODEC));
+
+    public static final RegistryObject<Feature<LargeDripstoneConfiguration>> LARGE_HONEYCOMB_PILLAR = FEATURES.register("large_honeycomb_pillar", () ->
+            new LargeHoneycombPillarFeature(LargeDripstoneConfiguration.CODEC));
+
+    public static final RegistryObject<Feature<LargeDripstoneConfiguration>> LARGE_GRANITE_PILLAR = FEATURES.register("large_granite_pillar", () ->
+            new LargeGranitePillarFeature(LargeDripstoneConfiguration.CODEC));
+
+    public static final RegistryObject<Feature<LargeDripstoneConfiguration>> LARGE_PRISMARINE_PILLAR = FEATURES.register("large_prismarine_pillar", () ->
+            new LargePrismarinePillarFeature(LargeDripstoneConfiguration.CODEC));
+
+    public static final RegistryObject<Feature<LargeDripstoneConfiguration>> LARGE_DARK_PRISMARINE_PILLAR = FEATURES.register("large_dark_prismarine_pillar", () ->
+            new LargeDarkPrismarinePillarFeature(LargeDripstoneConfiguration.CODEC));
+
+    public static final RegistryObject<Feature<LargeDripstoneConfiguration>> LARGE_SLIME_PILLAR = FEATURES.register("large_slime_pillar", () ->
+            new LargeSlimePillarFeature(LargeDripstoneConfiguration.CODEC));
+
     public static final RegistryObject<Feature<LargeDripstoneConfiguration>> LARGE_BLUE_ICE_PILLAR = FEATURES.register("large_blue_ice_pillar", () ->
             new LargeBlueIcePillarFeature(LargeDripstoneConfiguration.CODEC));
 
@@ -62,6 +76,21 @@ public abstract class EcodFeatureRegistry {
 
     public static final RegistryObject<Feature<GeodeConfiguration>> VOID_GEODE = FEATURES.register("void_geode", () ->
             new VoidGeodeFeature(GeodeConfiguration.CODEC));
+
+    public static final RegistryObject<Feature<FloodConfiguration>> FLOOD = FEATURES.register("flood", () ->
+            new FloodFeature(FloodConfiguration.CODEC));
+
+    public static final RegistryObject<Feature<VegetationPatchConfiguration>> NON_FLOATING_PATCH = FEATURES.register("non_floating_patch", () ->
+            new NonFloatingPatchFeature(VegetationPatchConfiguration.CODEC));
+
+    public static final RegistryObject<Feature<NoneFeatureConfiguration>> CAVE_KELP_FEATURE = FEATURES.register("cave_kelp", () ->
+            new CaveKelpFeature(NoneFeatureConfiguration.CODEC));
+
+    public static final RegistryObject<Feature<NoneFeatureConfiguration>> CAVE_PICKLE_FEATURE = FEATURES.register("cave_pickle", () ->
+            new CavePickleFeature(NoneFeatureConfiguration.CODEC));
+
+    public static final RegistryObject<Feature<ProbabilityFeatureConfiguration>> CAVE_SEAGRASS_FEATURE = FEATURES.register("cave_seagrass", () ->
+            new CaveSeagrassFeature(ProbabilityFeatureConfiguration.CODEC));
 
     public static void register(IEventBus eventBus) {
         FEATURES.register(eventBus);

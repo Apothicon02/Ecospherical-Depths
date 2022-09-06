@@ -13,17 +13,17 @@
       "height": {
         "type": "minecraft:uniform",
         "min_inclusive": {
-          "above_bottom": 0
+          "absolute": -48
         },
         "max_inclusive": {
-          "absolute": 90
+          "absolute": 60
         }
       }
     },
     {
       "type": "minecraft:environment_scan",
       "direction_of_search": "up",
-      "max_steps": 12,
+      "max_steps": 32,
       "target_condition": {
         "type": "minecraft:solid"
       },
