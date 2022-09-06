@@ -5,6 +5,8 @@
   "biome.ecod.geodeial_cavity": "Geodeial Cavity",
   "biome.ecod.lush_cavity": "Lush Cavity",
   "biome.ecod.molten_cavity": "Molten Cavity",
+  "biome.ecod.tropical_cavity": "Tropical Cavity",
+  "biome.ecod.submerged_cavity": "Submerged Cavity",
 
   "block.minecraft.bedrock.under": "You feel a strange urge to consume chorus",
   "block.minecraft.bedrock.above": "Perhaps you could return the way you entered"

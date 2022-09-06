@@ -3,6 +3,8 @@
   "values": [
     "#minecraft:terracotta",
     "minecraft:snow_block",
-    "#minecraft:ice"
+    "#minecraft:ice",
+    "minecraft:sandstone",
+    "minecraft:red_sandstone"
   ]
 }

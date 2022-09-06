@@ -23,7 +23,7 @@ public class CatchingFallFeature extends Feature<CatchingFallConfiguration> {
             return false;
         } else {
             BlockState blockstate = worldgenlevel.getBlockState(blockpos);
-            if (!blockstate.isAir() && !springconfiguration.validBlocks.contains(blockstate.getBlock())) {
+            if (!blockstate.isAir() && !blockstate.is(springconfiguration.state.createLegacyBlock().getBlock()) && !springconfiguration.validBlocks.contains(blockstate.getBlock())) {
                 return false;
             } else {
                 int i = 0;
