@@ -157,14 +157,7 @@
       "ecod:dense_dark_prismarine_water_fall"
     ],
     [
-      "minecraft:ore_dirt",
       "minecraft:ore_gravel",
-      "minecraft:ore_granite_upper",
-      "minecraft:ore_granite_lower",
-      "minecraft:ore_diorite_upper",
-      "minecraft:ore_diorite_lower",
-      "minecraft:ore_andesite_upper",
-      "minecraft:ore_andesite_lower",
       "minecraft:ore_tuff",
       "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
@@ -185,6 +178,9 @@
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel"
+    ],
+    [
+      "ecod:ceiling_dripstone"
     ],
     [
       "minecraft:spring_water"

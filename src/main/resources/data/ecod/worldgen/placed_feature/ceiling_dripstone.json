@@ -1,28 +1,14 @@
 {
-  "feature": "ecod:clay_pool_with_dripleaves",
+  "feature": "minecraft:dripstone_cluster",
   "placement": [
     {
       "type": "minecraft:count",
       "count": {
-        "type": "minecraft:weighted_list",
-        "distribution": [
-          {
-            "weight": 2,
-            "data": 7
-          },
-          {
-            "weight": 1,
-            "data": 13
-          },
-          {
-            "weight": 7,
-            "data": 3
-          },
-          {
-            "weight": 13,
-            "data": 0
-          }
-        ]
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 26,
+          "max_inclusive": 58
+        }
       }
     },
     {
@@ -42,20 +28,26 @@
     },
     {
       "type": "minecraft:environment_scan",
-      "direction_of_search": "down",
+      "direction_of_search": "up",
       "max_steps": 32,
       "target_condition": {
-        "type": "minecraft:solid"
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:deepslate",
+          "minecraft:sandstone"
+        ]
       },
       "allowed_search_condition": {
-        "type": "minecraft:matching_blocks",
-        "blocks": "minecraft:air"
+        "type": "minecraft:not",
+        "predicate": {
+          "type": "minecraft:solid"
+        }
       }
     },
     {
       "type": "minecraft:random_offset",
       "xz_spread": 0,
-      "y_spread": 1
+      "y_spread": -1
     },
     {
       "type": "minecraft:biome"
