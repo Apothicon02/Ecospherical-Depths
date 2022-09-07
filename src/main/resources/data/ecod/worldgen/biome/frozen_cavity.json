@@ -104,16 +104,23 @@
   },
   "features": [
     [
+
+    ],
+    [
+
+    ],
+    [
+      "ecod:void_amethyst_geode",
       "ecod:sparse_packed_ice_pillar",
       "ecod:thin_ice_pillar",
       "ecod:sparse_thin_blue_ice_pillar"
     ],
     [
-      "minecraft:amethyst_geode"
-    ],
-    [
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
+    ],
+    [
+
     ],
     [
       "minecraft:ore_tuff",
@@ -134,12 +141,15 @@
       "minecraft:ore_copper_large"
     ],
     [
+
+    ],
+    [
       "minecraft:glow_lichen",
+      "minecraft:patch_tall_grass_2",
       "ecod:amethyst_spiral",
       "ecod:amethyst_void_crystals",
       "ecod:sparse_amethyst_void_ceiling_crystals",
       "ecod:sparse_amethyst_vine",
-      "minecraft:patch_tall_grass_2",
       "minecraft:trees_plains",
       "minecraft:flower_plains",
       "minecraft:patch_grass_plain",
@@ -148,11 +158,14 @@
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
       "ecod:snowy_pool_with_ice",
-      "ecod:powdered_snow_pool"
+      "ecod:powdered_snow_pool",
+      "ecod:patch_snow_layer"
     ],
     [
-      "ecod:patch_snow_layer",
-      "minecraft:freeze_top_layer"
+
+    ],
+    [
+
     ]
   ]
 }

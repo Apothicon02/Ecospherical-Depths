@@ -6,14 +6,18 @@ buildscript {
     }
     dependencies {
         classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
+        // MixinGradle:
+        classpath 'org.spongepowered:mixingradle:0.7.+'
     }
 }
 apply plugin: 'net.minecraftforge.gradle'
 // Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
+// MixinGradle:
+apply plugin: 'org.spongepowered.mixin'
 
-version = '0.3.1'
+version = '0.4.1'
 group = 'com.Apothic0n.ecosphericaldepths' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'ecosphericaldepths'
 
@@ -159,6 +163,17 @@ dependencies {
     compileOnly fg.deobf("curse.maven:quark-243121:3840125")
     //darker depths
     compileOnly fg.deobf("curse.maven:darker-depths-460681:3888100")
+
+    // Apply Mixin AP
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+    mixin {
+        // MixinGradle Settings
+        add sourceSets.main, 'mixins.ecod.refmap.json'
+        config 'mixins.ecod.json'
+
+        debug.verbose = true
+        debug.export = true
+    }
 
     // Real mod deobf dependency examples - these get remapped to your current mappings
     // compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api") // Adds JEI API as a compile dependency

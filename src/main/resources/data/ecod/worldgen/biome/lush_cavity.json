@@ -126,14 +126,15 @@
   },
   "features": [
     [
-      "ecod:sparse_calcite_pillar"
+
     ],
     [
       "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
     ],
     [
-      "minecraft:amethyst_geode"
+      "minecraft:amethyst_geode",
+      "ecod:sparse_calcite_pillar"
     ],
     [
       "minecraft:monster_room",
@@ -192,6 +193,12 @@
       "minecraft:lush_caves_vegetation",
       "ecod:lush_spore_blossom",
       "minecraft:classic_vines_cave_feature"
+    ],
+    [
+
+    ],
+    [
+
     ]
   ]
 }
