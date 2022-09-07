@@ -110,11 +110,14 @@
   },
   "features": [
     [
+
+    ],
+    [
       "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
     ],
     [
-      "minecraft:amethyst_geode",
+      "ecod:void_amethyst_geode",
       "minecraft:large_dripstone"
     ],
     [
@@ -156,9 +159,7 @@
     ],
     [
       "minecraft:dripstone_cluster",
-      "minecraft:pointed_dripstone"
-    ],
-    [
+      "minecraft:pointed_dripstone",
       "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
@@ -175,7 +176,10 @@
       "ecod:clay_pool_with_dripleaves"
     ],
     [
-      "minecraft:freeze_top_layer"
+
+    ],
+    [
+
     ]
   ]
 }

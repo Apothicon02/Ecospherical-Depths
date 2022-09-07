@@ -144,16 +144,17 @@
   },
   "features": [
     [
-      "ecod:sparse_granite_pillar",
-      "ecod:sparse_honeycomb_pillar",
-      "ecod:thin_honey_pillar"
+
     ],
     [
       "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
     ],
     [
-      "minecraft:amethyst_geode"
+      "minecraft:amethyst_geode",
+      "ecod:sparse_granite_pillar",
+      "ecod:sparse_honeycomb_pillar",
+      "ecod:thin_honey_pillar"
     ],
     [
       "minecraft:monster_room",
@@ -214,6 +215,12 @@
       "ecod:sparse_lush_caves_vegetation",
       "ecod:lush_spore_blossom",
       "minecraft:classic_vines_cave_feature"
+    ],
+    [
+
+    ],
+    [
+
     ]
   ]
 }

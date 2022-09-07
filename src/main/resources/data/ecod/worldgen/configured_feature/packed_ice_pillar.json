@@ -5,14 +5,14 @@
     "column_radius": {
       "type": "minecraft:uniform",
       "value": {
-        "min_inclusive": 3,
+        "min_inclusive": 13,
         "max_inclusive": 17
       }
     },
     "height_scale": {
       "type": "minecraft:uniform",
       "value": {
-        "min_inclusive": 0.4,
+        "min_inclusive": 1.2,
         "max_exclusive": 2
       }
     },

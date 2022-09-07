@@ -42,18 +42,18 @@
               1.3
             ],
             "humidity": [
-              0.4,
-              2.0
+              0.7,
+              1.4
             ],
             "continentalness": [
-              0.2,
-              1
+              0.5,
+              1.0
             ],
             "erosion": [
               -2.0,
               -0.2
             ],
-            "weirdness": 0.1,
+            "weirdness": 0.6,
             "depth": [
               0,
               0.5
@@ -108,6 +108,33 @@
               0.5
             ],
             "weirdness": 0.1,
+            "depth": [
+              0.7,
+              0.8
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "ecod:glacial_cavity",
+          "parameters": {
+            "temperature": [
+              -2.0,
+              -0.6
+            ],
+            "humidity": [
+              -1.0,
+              0.8
+            ],
+            "continentalness": [
+              -2.0,
+              -0.3
+            ],
+            "erosion": [
+              -2.0,
+              0.5
+            ],
+            "weirdness": 0.0,
             "depth": [
               0.7,
               0.8

@@ -67,15 +67,25 @@
   },
   "features": [
     [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
+
     ],
     [
-      "minecraft:amethyst_geode"
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface",
+      "minecraft:delta"
+    ],
+    [
+      "minecraft:amethyst_geode",
+      "minecraft:small_basalt_columns",
+      "minecraft:large_basalt_columns",
+      "ecod:sparse_smooth_basalt_pillar"
     ],
     [
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
+    ],
+    [
+      "ecod:lava_fall"
     ],
     [
       "minecraft:ore_dirt",
@@ -108,13 +118,7 @@
       "minecraft:disk_gravel"
     ],
     [
-      "minecraft:delta",
-      "minecraft:small_basalt_columns",
-      "minecraft:large_basalt_columns",
-      "ecod:sparse_smooth_basalt_pillar"
-    ],
-    [
-      "ecod:lava_fall"
+
     ],
     [
       "minecraft:basalt_blobs",
@@ -130,6 +134,12 @@
       "minecraft:spring_closed_double",
       "minecraft:ore_ancient_debris_large",
       "minecraft:ore_debris_small"
+    ],
+    [
+
+    ],
+    [
+
     ]
   ]
 }
