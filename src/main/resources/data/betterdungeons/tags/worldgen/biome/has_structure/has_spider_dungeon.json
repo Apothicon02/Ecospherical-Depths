@@ -1,0 +1,14 @@
+ {
+  "replace": false,
+  "values": [
+    "ecod:dripping_cavity",
+    "ecod:frozen_cavity",
+    "ecod:glacial_cavity",
+    "ecod:sunken_cavity",
+    "ecod:deep_cavity",
+    "ecod:molten_cavity",
+    "ecod:lush_cavity",
+    "ecod:tropical_cavity",
+    "ecod:geodeial_cavity"
+  ]
+}
