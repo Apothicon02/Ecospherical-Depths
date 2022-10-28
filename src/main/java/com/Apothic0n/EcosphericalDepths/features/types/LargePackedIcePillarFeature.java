@@ -152,10 +152,8 @@ public class LargePackedIcePillarFeature extends Feature<LargeDripstoneConfigura
                                     int chance = ((int) (Math.random() * (20) + 1));
                                     if (pRadius <= 3) {
                                         block = Blocks.ICE;
-                                    } else if (chance >= 20) { //5% chance
+                                    } else if (chance >= 17) { //15% chance
                                         block = Blocks.BLUE_ICE;
-                                    } else if(chance >= 15) { //20% chance
-                                        block = Blocks.FROSTED_ICE;
                                     }
                                     pLevel.setBlock(blockpos, block.defaultBlockState(), 2);
                                 } else if (flag && pLevel.getBlockState(blockpos).is(BlockTags.BASE_STONE_OVERWORLD)) {
